@@ -109,3 +109,40 @@ new StringBuilder(str).reverse().toString();</code></li>
   <li><code>Optional.ofNullable(obj)</code></li>
   <li><code>record User(String name, int age) {}</code></li>
 </ul>
+
+<h2>7. File Handling</h2>
+<ul>
+  <li><code>Files.readString(Path.of("a.txt"));</code></li>
+  <li><code>Files.writeString(Path.of("a.txt"), "Hello");</code></li>
+  <li><code>List&lt;String&gt; lines = Files.readAllLines(Path.of("file.txt"));</code></li>
+  <li><code>Files.copy(Path.of("a.txt"), Path.of("b.txt"));</code></li>
+  <li><code>Files.delete(Path.of("a.txt"));</code></li>
+  <li><code>Files.exists(Path.of("a.txt"));</code></li>
+  <li><code>new File("folder").mkdir();</code></li>
+  <li><code>new File("folder").listFiles();</code></li>
+  <li><code>BufferedReader br = new BufferedReader(new FileReader("a.txt"));</code></li>
+  <li><code>BufferedWriter bw = new BufferedWriter(new FileWriter("b.txt"));</code></li>
+</ul>
+
+<h2>8. Exception Handling</h2>
+<ul>
+  <li><code>try{} catch(Exception e){ e.printStackTrace(); }</code></li>
+  <li><code>throw new RuntimeException("Error!");</code></li>
+  <li><code>Objects.requireNonNull(obj);</code></li>
+  <li><code>assert x &gt; 0;</code></li>
+  <li><code>Optional.ofNullable(obj).orElse("NA");</code></li>
+</ul>
+
+<h2>9. Multi-threading</h2>
+<ul>
+  <li><code>Thread t = new Thread(() -&gt; System.out.println("Hi")); t.start();</code></li>
+  <li><code>Runnable r = () -&gt; System.out.println("Run");</code></li>
+  <li><code>ExecutorService ex = Executors.newFixedThreadPool(5);</code></li>
+  <li><code>ex.submit(() -&gt; System.out.println("Task"));</code></li>
+  <li><code>ex.shutdown();</code></li>
+  <li><code>CompletableFuture.supplyAsync(() -&gt; "Hello").thenAccept(System.out::println);</code></li>
+  <li><code>Thread.sleep(1000);</code></li>
+  <li><code>ReentrantLock lock = new ReentrantLock();</code></li>
+  <li><code>synchronized(this){ }</code></li>
+  <li><code>AtomicInteger ai = new AtomicInteger(0); ai.incrementAndGet();</code></li>
+</ul>
