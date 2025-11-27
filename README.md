@@ -35,3 +35,17 @@
   <li><code>wmic process where "name='java.exe'" get ProcessId</code></li>
 </ul>
 
+<h2>3. System Cleanup & Optimization</h2>
+<ul>
+  <li><code>cleanmgr</code></li>
+  <li><code>prefetch</code></li>
+  <li><code>%temp%</code></li>
+  <li><code>temp</code></li>
+  <li><code>tree</code></li>
+  <li><code>sfc /scannow</code></li>
+  <li><code>Dism /Online /Cleanup-Image /RestoreHealth</code></li>
+  <li><code>chkdsk C: /f</code></li>
+  <li><code>powercfg /batteryreport</code></li>
+  <li><code>powercfg /energy</code></li>
+</ul>
+
