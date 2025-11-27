@@ -146,3 +146,17 @@ new StringBuilder(str).reverse().toString();</code></li>
   <li><code>synchronized(this){ }</code></li>
   <li><code>AtomicInteger ai = new AtomicInteger(0); ai.incrementAndGet();</code></li>
 </ul>
+
+<h2>10. Useful Utility Snippets</h2>
+<ul>
+  <li><code>new Random().nextInt(100);</code></li>
+  <li><code>UUID.randomUUID().toString();</code></li>
+  <li><code>LocalDate.now();</code></li>
+  <li><code>LocalTime.now();</code></li>
+  <li><code>LocalDateTime.now();</code></li>
+  <li><code>Duration.between(t1, t2).toMillis();</code></li>
+  <li><code>Math.max(a,b)</code></li>
+  <li><code>Math.min(a,b)</code></li>
+  <li><code>Math.round(2.345)</code></li>
+  <li><code>Instant.now()</code></li>
+</ul>
