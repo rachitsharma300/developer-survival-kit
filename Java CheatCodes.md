@@ -27,3 +27,85 @@
   <li><code>boolean any = list.stream().anyMatch(x -&gt; x.equals("A"));</code></li>
   <li><code>String join = list.stream().collect(Collectors.joining(", "));</code></li>
 </ul>
+
+<h2>3. Convert CheatCodes</h2>
+<ul>
+  <li><code>String str = String.valueOf(123);</code></li>
+  <li><code>int n = Integer.parseInt("10");</code></li>
+  <li><code>double d = Double.parseDouble("10.5");</code></li>
+  <li><code>String arrStr = Arrays.toString(new int[]{1,2,3});</code></li>
+  <li><code>List&lt;String&gt; l = Arrays.asList(str.split(","));</code></li>
+  <li><code>int[] arr = list.stream().mapToInt(Integer::parseInt).toArray();</code></li>
+  <li><code>LocalDate date = LocalDate.parse("2024-01-11");</code></li>
+  <li><code>Date now = new Date();</code></li>
+  <li><code>String json = new ObjectMapper().writeValueAsString(obj);</code></li>
+  <li><code>MyClass obj = new ObjectMapper().readValue(json, MyClass.class);</code></li>
+</ul>
+
+<h2>4. DSA Quick Templates</h2>
+<ul>
+  <li><code>// Binary Search
+int bs(int[] arr, int target) {
+ int l=0, r=arr.length-1;
+ while(l&lt;=r){
+  int mid = l+(r-l)/2;
+  if(arr[mid]==target) return mid;
+  else if(arr[mid]&lt;target) l=mid+1;
+  else r=mid-1;
+ }
+ return -1;
+}</code></li>
+
+  <li><code>// Two Pointer
+while(l &lt; r){
+ int sum = arr[l] + arr[r];
+ if(sum == target) break;
+ else if(sum &lt; target) l++;
+ else r--;
+}</code></li>
+
+  <li><code>// Sliding Window
+int sum=0, l=0;
+for(int r=0; r&lt;n; r++){
+ sum+=arr[r];
+ while(sum &gt; k){
+  sum-=arr[l++];
+ }
+}</code></li>
+
+  <li><code>// Frequency Map
+Map&lt;Integer,Integer&gt; freq = new HashMap<>();
+for(int x: arr) freq.put(x, freq.getOrDefault(x,0)+1);
+</code></li>
+
+  <li><code>// Reverse String
+new StringBuilder(str).reverse().toString();</code></li>
+</ul>
+
+<h2>5. String CheatCodes</h2>
+<ul>
+  <li><code>str.toLowerCase()</code></li>
+  <li><code>str.toUpperCase()</code></li>
+  <li><code>str.trim()</code></li>
+  <li><code>str.replace("a","b")</code></li>
+  <li><code>str.contains("abc")</code></li>
+  <li><code>str.startsWith("A")</code></li>
+  <li><code>str.endsWith("Z")</code></li>
+  <li><code>str.substring(1,4)</code></li>
+  <li><code>str.matches("[0-9]+")</code></li>
+  <li><code>String.join("-", list)</code></li>
+</ul>
+
+<h2>6. OOP CheatCodes</h2>
+<ul>
+  <li><code>class A { private int x; }</code></li>
+  <li><code>class B extends A {}</code></li>
+  <li><code>interface Test { void run(); }</code></li>
+  <li><code>abstract class Animal { abstract void sound(); }</code></li>
+  <li><code>@Override public String toString(){ return "Hi"; }</code></li>
+  <li><code>public static final String NAME = "Rachit";</code></li>
+  <li><code>private static A instance = new A();</code></li>
+  <li><code>Singleton.getInstance();</code></li>
+  <li><code>Optional.ofNullable(obj)</code></li>
+  <li><code>record User(String name, int age) {}</code></li>
+</ul>
