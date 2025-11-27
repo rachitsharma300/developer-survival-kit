@@ -95,3 +95,17 @@
   <li><code>netsh advfirewall firewall add rule name="Open Port 8080" dir=in action=allow protocol=TCP localport=8080</code></li>
   <li><code>netsh advfirewall firewall delete rule name="Open Port 8080"</code></li>
 </ul>
+
+<h2>8. System Info Commands</h2>
+<ul>
+  <li><code>systeminfo</code></li>
+  <li><code>hostname</code></li>
+  <li><code>whoami</code></li>
+  <li><code>wmic cpu get name</code></li>
+  <li><code>wmic memorychip get capacity</code></li>
+  <li><code>wmic logicaldisk get size,freespace,caption</code></li>
+  <li><code>wmic os get caption</code></li>
+  <li><code>taskmgr</code></li>
+  <li><code>perfmon</code></li>
+  <li><code>msinfo32</code></li>
+</ul>
