@@ -85,3 +85,13 @@
   <li><code>netstat -e</code></li>
   <li><code>net statistics workstation</code></li>
 </ul>
+
+
+<h2>7. Firewall Commands</h2>
+<ul>
+  <li><code>netsh advfirewall show allprofiles</code></li>
+  <li><code>netsh advfirewall export firewall.wfw</code></li>
+  <li><code>netsh advfirewall import firewall.wfw</code></li>
+  <li><code>netsh advfirewall firewall add rule name="Open Port 8080" dir=in action=allow protocol=TCP localport=8080</code></li>
+  <li><code>netsh advfirewall firewall delete rule name="Open Port 8080"</code></li>
+</ul>
