@@ -76,3 +76,12 @@
   <li><code>where java</code></li>
   <li><code>where node</code></li>
 </ul>
+
+<h2>6. Network Device Control</h2>
+<ul>
+  <li><code>netsh interface show interface</code></li>
+  <li><code>netsh interface set interface name="Wi-Fi" admin=ENABLE</code></li>
+  <li><code>netsh interface set interface name="Wi-Fi" admin=DISABLE</code></li>
+  <li><code>netstat -e</code></li>
+  <li><code>net statistics workstation</code></li>
+</ul>
