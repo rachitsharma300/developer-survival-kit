@@ -63,3 +63,16 @@
   <li><code>attrib</code></li>
 </ul>
 
+<h2>5. Dev Environment & Tools</h2>
+<ul>
+  <li><code>java -version</code></li>
+  <li><code>javac -version</code></li>
+  <li><code>mvn -v</code></li>
+  <li><code>gradle -v</code></li>
+  <li><code>node -v</code></li>
+  <li><code>npm -v</code></li>
+  <li><code>npx create-react-app myapp</code></li>
+  <li><code>npm start</code></li>
+  <li><code>where java</code></li>
+  <li><code>where node</code></li>
+</ul>
