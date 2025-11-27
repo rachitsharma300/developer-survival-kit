@@ -49,3 +49,17 @@
   <li><code>powercfg /energy</code></li>
 </ul>
 
+<h2>4. File System & Directory</h2>
+<ul>
+  <li><code>dir</code></li>
+  <li><code>dir /s</code></li>
+  <li><code>cd</code></li>
+  <li><code>cd ..</code></li>
+  <li><code>copy</code></li>
+  <li><code>move</code></li>
+  <li><code>del</code></li>
+  <li><code>rmdir /S</code></li>
+  <li><code>mkdir</code></li>
+  <li><code>attrib</code></li>
+</ul>
+
