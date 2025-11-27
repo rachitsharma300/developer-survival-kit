@@ -109,3 +109,13 @@
   <li><code>perfmon</code></li>
   <li><code>msinfo32</code></li>
 </ul>
+
+
+<h2>9. Windows Services</h2>
+<ul>
+  <li><code>services.msc</code></li>
+  <li><code>sc query</code></li>
+  <li><code>sc stop &lt;service-name&gt;</code></li>
+  <li><code>sc start &lt;service-name&gt;</code></li>
+  <li><code>sc delete &lt;service-name&gt;</code></li>
+</ul>
