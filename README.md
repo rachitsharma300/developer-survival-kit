@@ -119,3 +119,12 @@
   <li><code>sc start &lt;service-name&gt;</code></li>
   <li><code>sc delete &lt;service-name&gt;</code></li>
 </ul>
+
+<h2>10. Security & Credential Tools</h2>
+<ul>
+  <li><code>control keymgr.dll</code></li>
+  <li><code>rundll32.exe keymgr.dll, KRShowKeyMgr</code></li>
+  <li><code>cipher /wipe:C</code></li>
+  <li><code>cipher /e</code></li>
+  <li><code>cipher /d</code></li>
+</ul>
