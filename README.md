@@ -23,3 +23,15 @@
   <li><code>getmac</code></li>
   <li><code>arp -a</code></li>
 </ul>
+
+<h2>2. Port & Process Commands</h2>
+<ul>
+  <li><code>netstat -ano</code></li>
+  <li><code>netstat -aon | findstr :8080</code></li>
+  <li><code>tasklist</code></li>
+  <li><code>taskkill /PID &lt;pid&gt; /F</code></li>
+  <li><code>taskkill /IM chrome.exe /F</code></li>
+  <li><code>wmic process list brief</code></li>
+  <li><code>wmic process where "name='java.exe'" get ProcessId</code></li>
+</ul>
+
