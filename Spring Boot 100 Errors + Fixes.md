@@ -68,3 +68,24 @@
 <p><strong>Error:</strong> HttpMessageNotReadableException</p>
 <p><strong>Fix:</strong> Check JSON format and mapping DTOs.</p>
 
+<h2>19. SQL Syntax Error</h2>
+<p><strong>Fix:</strong> Validate queries in repository or use JPA methods.</p>
+
+<h2>20. Transaction Rollback Exception</h2>
+<p><strong>Fix:</strong> Ensure proper <code>@Transactional</code> usage and exception handling.</p>
+
+<h2>21. Bean Definition Overriding</h2>
+<p><strong>Error:</strong> BeanDefinitionOverrideException</p>
+<p><strong>Fix:</strong> Enable overriding or rename beans.</p>
+
+<h2>22. Missing Servlet Mapping</h2>
+<p><strong>Fix:</strong> Add correct <code>@RequestMapping</code> or <code>@GetMapping/@PostMapping</code>.</p>
+
+<h2>23. Template Engine Error (Thymeleaf/Freemarker)</h2>
+<p><strong>Fix:</strong> Check template path, variable names, and configuration.</p>
+
+<h2>24. SSL/TLS Handshake Exception</h2>
+<p><strong>Fix:</strong> Import correct certificates or trust store for HTTPS connection.</p>
+
+<h2>25. Spring Security UsernameNotFoundException</h2>
+<p><strong>Fix:</strong> Ensure UserDetailsService implementation returns valid user object.</p>
