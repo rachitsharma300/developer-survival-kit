@@ -89,3 +89,17 @@
 
 <h2>25. Spring Security UsernameNotFoundException</h2>
 <p><strong>Fix:</strong> Ensure UserDetailsService implementation returns valid user object.</p>
+<h2>26. HTTP 404 Not Found</h2>
+<p><strong>Fix:</strong> Verify controller endpoint mapping and URL patterns.</p>
+
+<h2>27. MethodNotAllowed 405</h2>
+<p><strong>Fix:</strong> Ensure HTTP method matches the controller mapping (GET/POST/PUT/DELETE).</p>
+
+<h2>28. Multipart File Encoding Error</h2>
+<p><strong>Fix:</strong> Set <code>spring.http.multipart.enabled=true</code> and proper encoding.</p>
+
+<h2>29. Hibernate Validator Error</h2>
+<p><strong>Fix:</strong> Use proper annotations (<code>@NotNull, @Size</code>) and validate request body.</p>
+
+<h2>30. BeanNotOfRequiredTypeException</h2>
+<p><strong>Fix:</strong> Ensure correct generic types and bean injection types.</p>
