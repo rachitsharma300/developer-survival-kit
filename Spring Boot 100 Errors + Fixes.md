@@ -163,5 +163,25 @@
 <h2>50. JDBC Connection Exception</h2>
 <p><strong>Fix:</strong> Check DB URL, credentials, driver dependency.</p>
 
+<h2>51. MaxUploadSizeExceededException</h2>
+<p><strong>Fix:</strong> Increase <code>spring.servlet.multipart.max-file-size</code>.</p>
+
+<h2>52. HttpMediaTypeNotSupportedException</h2>
+<p><strong>Fix:</strong> Set correct Content-Type in request.</p>
+
+<h2>53. HttpMediaTypeNotAcceptableException</h2>
+<p><strong>Fix:</strong> Set Accept header correctly.</p>
+
+<h2>54. MissingPathVariableException</h2>
+<p><strong>Fix:</strong> Ensure URL path variable matches <code>@PathVariable</code> param.</p>
+
+<h2>55. MethodArgumentTypeMismatchException</h2>
+<p><strong>Fix:</strong> Use correct param type or add converter.</p>
+
+<h2>56. BindException</h2>
+<p><strong>Fix:</strong> Check DTO validation annotations.</p>
+
+<h2>57. BeanInstantiationException</h2>
+<p><strong>Fix:</strong> Ensure default constructor present or proper factory method.</p>
 
 
