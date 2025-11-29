@@ -121,6 +121,33 @@
 <h2>36. HttpMessageConversionException</h2>
 <p><strong>Fix:</strong> Check request and response DTO mapping.</p>
 
+<h2>37. MissingServletRequestPartException</h2>
+<p><strong>Fix:</strong> Ensure multipart form-data has correct parts.</p>
+
+<h2>38. IllegalStateException - Session Closed</h2>
+<p><strong>Fix:</strong> Avoid accessing lazy-loaded entities outside transaction.</p>
+
+<h2>39. ClassCastException</h2>
+<p><strong>Fix:</strong> Ensure correct type casting and generics.</p>
+
+<h2>40. IllegalArgumentException</h2>
+<p><strong>Fix:</strong> Validate input params and DTOs.</p>
+
+<h2>41. NoUniqueBeanDefinitionException</h2>
+<p><strong>Fix:</strong> Use <code>@Primary</code> or rename beans.</p>
+
+<h2>42. UnsatisfiedDependencyException</h2>
+<p><strong>Fix:</strong> Check constructor or field injection for missing beans.</p>
+
+<h2>43. Circular Reference in Configuration</h2>
+<p><strong>Fix:</strong> Restructure @Configuration classes or mark bean lazy.</p>
+
+<h2>44. BeanCurrentlyInCreationException</h2>
+<p><strong>Fix:</strong> Use <code>@Lazy</code> or restructure dependent beans.</p>
+
+<h2>45. TransactionTimedOutException</h2>
+<p><strong>Fix:</strong> Increase transaction timeout or optimize DB operations.</p>
+
 
 
 
