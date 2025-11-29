@@ -236,6 +236,26 @@
 <h2>75. HttpClientErrorException</h2>
 <p><strong>Fix:</strong> Verify REST call URL, method, and payload.</p>
 
+<h2>76. HttpServerErrorException</h2>
+<p><strong>Fix:</strong> Check server side logs and exception stacktrace.</p>
+
+<h2>77. ResourceAccessException</h2>
+<p><strong>Fix:</strong> Ensure endpoint reachable and firewall allows connection.</p>
+
+<h2>78. SocketTimeoutException</h2>
+<p><strong>Fix:</strong> Increase timeout in RestTemplate or WebClient.</p>
+
+<h2>79. ConnectException</h2>
+<p><strong>Fix:</strong> Check server is running and port accessible.</p>
+
+<h2>80. JsonMappingException</h2>
+<p><strong>Fix:</strong> Check DTO structure and JSON format.</p>
+
+<h2>81. MissingServletRequestParameterException</h2>
+<p><strong>Fix:</strong> Add required request param or mark optional.</p>
+
+<h2>82. HttpMessageNotReadableException</h2>
+<p><strong>Fix:</strong> Verify request body JSON.</p>
 
 
 
