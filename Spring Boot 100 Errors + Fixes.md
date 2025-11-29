@@ -274,5 +274,24 @@
 
 <h2>88. BadCredentialsException</h2>
 <p><strong>Fix:</strong> Verify user password and encoding.</p>
+<h2>89. LockedException</h2>
+<p><strong>Fix:</strong> Unlock user or configure lock policy.</p>
 
+<h2>90. DisabledException</h2>
+<p><strong>Fix:</strong> Enable user account or adjust security config.</p>
+
+<h2>91. SessionAuthenticationException</h2>
+<p><strong>Fix:</strong> Ensure session management configured properly.</p>
+
+<h2>92. RememberMeAuthenticationException</h2>
+<p><strong>Fix:</strong> Check remember-me configuration.</p>
+
+<h2>93. AccessDeniedException</h2>
+<p><strong>Fix:</strong> Check method-level security annotations.</p>
+
+<h2>94. JWT Expired</h2>
+<p><strong>Fix:</strong> Check token expiration and refresh logic.</p>
+
+<h2>95. JWT SignatureException</h2>
+<p><strong>Fix:</strong> Check signing key and algorithm.</p>
 
