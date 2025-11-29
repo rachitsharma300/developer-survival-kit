@@ -201,4 +201,24 @@
 
 <h2>63. TypeMismatchException</h2>
 <p><strong>Fix:</strong> Convert property types correctly.</p>
+<h2>64. PropertyReferenceException</h2>
+<p><strong>Fix:</strong> Check Spring Data JPA query method names.</p>
+
+<h2>65. QueryTimeoutException</h2>
+<p><strong>Fix:</strong> Increase timeout or optimize query.</p>
+
+<h2>66. IncorrectResultSizeDataAccessException</h2>
+<p><strong>Fix:</strong> Ensure query returns expected number of rows.</p>
+
+<h2>67. EmptyResultDataAccessException</h2>
+<p><strong>Fix:</strong> Handle empty result in repository/service.</p>
+
+<h2>68. OptimisticLockingFailureException</h2>
+<p><strong>Fix:</strong> Check versioning in entity and handle concurrency.</p>
+
+<h2>69. StaleStateException</h2>
+<p><strong>Fix:</strong> Refresh entity before update or use merge.</p>
+
+<h2>70. BeanDefinitionStoreException</h2>
+<p><strong>Fix:</strong> Check config classes and context setup.</p>
 
