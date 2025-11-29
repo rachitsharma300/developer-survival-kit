@@ -184,4 +184,21 @@
 <h2>57. BeanInstantiationException</h2>
 <p><strong>Fix:</strong> Ensure default constructor present or proper factory method.</p>
 
+<h2>58. ClassNotFoundException</h2>
+<p><strong>Fix:</strong> Check dependencies and imports.</p>
+
+<h2>59. NoSuchMethodException</h2>
+<p><strong>Fix:</strong> Validate method signature or refactor code.</p>
+
+<h2>60. IllegalAccessException</h2>
+<p><strong>Fix:</strong> Ensure field/method visibility or use reflection properly.</p>
+
+<h2>61. InvocationTargetException</h2>
+<p><strong>Fix:</strong> Check underlying exception in reflective call.</p>
+
+<h2>62. NoSuchBeanDefinitionException</h2>
+<p><strong>Fix:</strong> Ensure correct package scanning and bean annotation.</p>
+
+<h2>63. TypeMismatchException</h2>
+<p><strong>Fix:</strong> Convert property types correctly.</p>
 
