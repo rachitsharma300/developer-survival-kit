@@ -294,4 +294,17 @@
 
 <h2>95. JWT SignatureException</h2>
 <p><strong>Fix:</strong> Check signing key and algorithm.</p>
+<h2>96. ResourceNotFoundException</h2>
+<p><strong>Fix:</strong> Handle missing entity gracefully.</p>
 
+<h2>97. NullPointerException</h2>
+<p><strong>Fix:</strong> Add null checks or use Optional.</p>
+
+<h2>98. ClassCastException</h2>
+<p><strong>Fix:</strong> Ensure proper casting and generic types.</p>
+
+<h2>99. IllegalStateException</h2>
+<p><strong>Fix:</strong> Check context and bean lifecycle.</p>
+
+<h2>100. UnknownHostException</h2>
+<p><strong>Fix:</strong> Verify server host and network.</p>
