@@ -103,3 +103,24 @@
 
 <h2>30. BeanNotOfRequiredTypeException</h2>
 <p><strong>Fix:</strong> Ensure correct generic types and bean injection types.</p>
+<h2>31. PropertySourceNotFoundException</h2>
+<p><strong>Fix:</strong> Check property file location and <code>@PropertySource</code> usage.</p>
+
+<h2>32. MissingServletRequestParameterException</h2>
+<p><strong>Fix:</strong> Ensure request params are present or mark as optional with <code>required=false</code>.</p>
+
+<h2>33. TypeMismatchException</h2>
+<p><strong>Fix:</strong> Convert parameter type correctly or use <code>@RequestParam(required=false)</code>.</p>
+
+<h2>34. ConversionFailedException</h2>
+<p><strong>Fix:</strong> Add proper converters or use compatible data types.</p>
+
+<h2>35. InvalidFormatException</h2>
+<p><strong>Fix:</strong> Map JSON fields correctly and use proper date format.</p>
+
+<h2>36. HttpMessageConversionException</h2>
+<p><strong>Fix:</strong> Check request and response DTO mapping.</p>
+
+
+
+
