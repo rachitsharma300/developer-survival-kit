@@ -221,4 +221,21 @@
 
 <h2>70. BeanDefinitionStoreException</h2>
 <p><strong>Fix:</strong> Check config classes and context setup.</p>
+<h2>71. UnsatisfiedDependencyException</h2>
+<p><strong>Fix:</strong> Verify bean injection and circular dependency.</p>
+
+<h2>72. ValidationException</h2>
+<p><strong>Fix:</strong> Check DTO annotations and custom validators.</p>
+
+<h2>73. ConstraintViolationException</h2>
+<p><strong>Fix:</strong> Ensure entity constraints and DB schema match.</p>
+
+<h2>74. DataIntegrityViolationException</h2>
+<p><strong>Fix:</strong> Check unique constraints and entity mapping.</p>
+
+<h2>75. HttpClientErrorException</h2>
+<p><strong>Fix:</strong> Verify REST call URL, method, and payload.</p>
+
+
+
 
