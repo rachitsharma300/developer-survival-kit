@@ -257,5 +257,22 @@
 <h2>82. HttpMessageNotReadableException</h2>
 <p><strong>Fix:</strong> Verify request body JSON.</p>
 
+<h2>83. HttpMessageNotWritableException</h2>
+<p><strong>Fix:</strong> Verify response DTO mapping and serializers.</p>
+
+<h2>84. MethodArgumentNotValidException</h2>
+<p><strong>Fix:</strong> Validate request body and handle binding result.</p>
+
+<h2>85. NoHandlerFoundException</h2>
+<p><strong>Fix:</strong> Add <code>@ControllerAdvice</code> or correct endpoint mapping.</p>
+
+<h2>86. AccessDeniedException</h2>
+<p><strong>Fix:</strong> Configure Spring Security properly.</p>
+
+<h2>87. AuthenticationException</h2>
+<p><strong>Fix:</strong> Check auth manager and credentials.</p>
+
+<h2>88. BadCredentialsException</h2>
+<p><strong>Fix:</strong> Verify user password and encoding.</p>
 
 
