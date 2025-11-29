@@ -148,6 +148,20 @@
 <h2>45. TransactionTimedOutException</h2>
 <p><strong>Fix:</strong> Increase transaction timeout or optimize DB operations.</p>
 
+<h2>46. DataAccessResourceFailureException</h2>
+<p><strong>Fix:</strong> Ensure DB connectivity and credentials.</p>
+
+<h2>47. CannotCreateTransactionException</h2>
+<p><strong>Fix:</strong> Verify DB connection pool and isolation level.</p>
+
+<h2>48. SQLGrammarException</h2>
+<p><strong>Fix:</strong> Validate SQL queries or use JPA methods.</p>
+
+<h2>49. LazyInitializationException</h2>
+<p><strong>Fix:</strong> Use <code>@Transactional</code> or eager fetch joins.</p>
+
+<h2>50. JDBC Connection Exception</h2>
+<p><strong>Fix:</strong> Check DB URL, credentials, driver dependency.</p>
 
 
 
