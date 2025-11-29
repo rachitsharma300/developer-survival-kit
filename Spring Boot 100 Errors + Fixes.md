@@ -49,3 +49,22 @@
 <h2>13. MethodArgumentNotValidException</h2>
 <p><strong>Error:</strong> Validation failed for @RequestBody</p>
 <p><strong>Fix:</strong> Use proper <code>@Valid</code> annotations and binding results checks.</p>
+<h2>14. DataIntegrityViolationException</h2>
+<p><strong>Error:</strong> Duplicate key or constraint violation</p>
+<p><strong>Fix:</strong> Check entity constraints and DB uniqueness rules.</p>
+
+<h2>15. LazyInitializationException</h2>
+<p><strong>Error:</strong> Could not initialize proxy - no Session</p>
+<p><strong>Fix:</strong> Use <code>@Transactional</code> or fetch joins to initialize lazy associations.</p>
+
+<h2>16. HTTP 500 Internal Server Error</h2>
+<p><strong>Fix:</strong> Check controller, service, and repository layers for null pointer or unhandled exceptions.</p>
+
+<h2>17. File Upload Error</h2>
+<p><strong>Error:</strong> MultipartException / MaxUploadSizeExceededException</p>
+<p><strong>Fix:</strong> Configure <code>spring.servlet.multipart.max-file-size</code> and <code>max-request-size</code>.</p>
+
+<h2>18. JSON Parse Error</h2>
+<p><strong>Error:</strong> HttpMessageNotReadableException</p>
+<p><strong>Fix:</strong> Check JSON format and mapping DTOs.</p>
+
